@@ -84,11 +84,11 @@ def repeat(message):
     	send_lovestory_voice(message)
     	
     elif message.text == 'Repository':
-        bot.send.message(message.chat.id, 'Вот ссылка на репозиторий со мной: ')
-        bot.send.message(message.chat.id, '//ссылка ')
+        bot.send_message(message.chat.id, 'Вот ссылка на репозиторий со мной: ')
+        bot.send_message(message.chat.id, 'https://github.com/aabaturov/bot_repository')
         
     elif message.text == 'API':
-        bot.send.message(message.chat.id, 'Функция находится в разработке..')
+        bot.send_message(message.chat.id, 'Функция находится в разработке..')
         #activate_api_mode(message)
             	
     else:
